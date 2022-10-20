@@ -12,7 +12,7 @@ class User{
     public function login(){
         if($this->email && $this->password){
             $sqlQuery = "
-            SELECT * from".$this->userTable."WHERE email = ? AND password = ?";
+            SELECT * from ".$this->userTable." WHERE email = ? AND password = ?";
             $stmt = $this->conn->prepare($sqlQuery);
             $password = md5($this->password);
             $stmt->bind_param("ss", $this->email, $password);
