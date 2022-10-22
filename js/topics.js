@@ -8,7 +8,7 @@ $( document ).ready(function() {
 			data: formData,
 			dataType:"json",
 			success: function(topicId) {				
-				window.location.href ="https://localhost/discussion-forum/post.php?topic_id="+topicId;
+				window.location.href ="https://localhost/iteh-domaci-1/post.php?topic_id="+topicId;
 			}
         });	
 		return false;

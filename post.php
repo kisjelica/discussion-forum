@@ -63,20 +63,7 @@ include('inc/header.php');
 							
 						  </div>
 						  
-						  <textarea name="message" data-topic-id="<?php echo $post['topic_id']; ?>" id="<?php echo $post['post_id']; ?>" style="visibility: hidden;"></textarea><br>
-						  
-						  <div class="text-right" id="button_section_<?php echo $post['post_id']; ?>">
-							<a class="btn btn-default btn-sm" id="edit_<?php echo $post['post_id']; ?>"><i class="fa fa-reply"></i> Edit</a>
-							<a class="btn btn-default btn-sm"><i class="fa fa-reply"></i> Delete</a>
-						  </div>
-						  
-						
-							
-						<div id="editSection_<?php echo $post['post_id']; ?>" class="hidden">						
-							<button type="submit" id="save_<?php echo $post['post_id']; ?>" name="save" class="btn btn-info saveButton">Save</button>
-							<button type="submit" id="cancel_<?php echo $post['post_id']; ?>" name="cancel" class="btn btn-info saveButton">Cancel</button>
-						</div>					
-						</div>					
+						 
 				
 					  </div>
 					</div>

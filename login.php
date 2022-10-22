@@ -34,7 +34,7 @@ if(!empty($_POST["login"]) && !empty($_POST["email"]) && !empty($_POST["password
 
 include('inc/header.php');
 ?>
-<title>Discussion Forum with PHP and MySQL</title> 
+<title>Discussion Forum</title> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -42,7 +42,7 @@ include('inc/header.php');
 <?php include('inc/container.php'); ?>
 <div class="container">		
 	<div class="row">
-		<h2>Discussion Forum with PHP and MySQL</h2>			
+		<h2>Discussion Forum</h2>			
 		<?php include("top_menus.php"); ?>
 		<div class="single category">				
 			<div style="padding-top:30px;width:400px;" class="panel-body" >
