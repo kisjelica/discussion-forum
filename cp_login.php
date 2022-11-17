@@ -25,7 +25,7 @@ if(!empty($_POST["login"]) && !empty($_POST["email"]) && !empty($_POST["password
 		$loginMessage = 'Invalid login! Please try again.';
 	}	
 } else if (!isset($_POST["login"])){
-	$loginMessage = 'Enter emailand pasword to login.';
+	$loginMessage = 'Enter email and pasword to login.';
 }
 
 include('inc/header.php');
