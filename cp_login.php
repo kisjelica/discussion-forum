@@ -39,7 +39,7 @@ include('inc/header.php');
 <div class="container">		
 	<div class="row">
 		<h2>Discussion Forum</h2>		
-		
+		<?php include("top_menus.php"); ?>
 		<div class="single category">
 			<h2>Forum Administrator Login</h2>		
 			<div style="padding-top:30px;width:400px;" class="panel-body" >
